@@ -5,12 +5,11 @@
 replicaCount: 1
 
 image:
-  repository: image1
+  repository: younes20ghost/docker-image
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: v0.2.6
+  tag: v1.0
 
-containerPort: 8080
 
 imagePullSecrets: []
 nameOverride: ""
